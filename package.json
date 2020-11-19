@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  
   "scripts": {
     "dev": "nodemon server",
-    "serve": "node server"
+    "serve": "node server",
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
